@@ -10,6 +10,5 @@ class PeopleClient {
             .build()
 
         return retrofit.create(PeopleService::class.java)
-
     }
 }
