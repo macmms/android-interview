@@ -1,0 +1,14 @@
+package fiix.interview.people.models
+
+import com.google.gson.annotations.SerializedName
+import com.google.gson.annotations.Expose
+
+data class Registered(
+    @SerializedName("date")
+    @Expose
+    var date: String? = null,
+
+    @SerializedName("age")
+    @Expose
+    var age: Int? = null
+)
